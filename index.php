@@ -46,7 +46,7 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="aboutMe.html">Assignm</a>
+        <a href="aboutMe.html">About Me</a>
     </nav>
 
     <section>
