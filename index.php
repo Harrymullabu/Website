@@ -11,12 +11,12 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: lightblue;
         }
 
         header {
             background-color: #333;
-            color: #fff;
+            color: white;
             padding: 10px;
             text-align: center;
         }
@@ -28,7 +28,7 @@
         }
 
         nav a {
-            color: #fff;
+            color: lightblue;
             text-decoration: none;
             margin: 0 10px;
         }
@@ -46,7 +46,7 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="aboutMe.html">Assignments</a>
+        <a href="aboutMe.html">Assignm</a>
     </nav>
 
     <section>
