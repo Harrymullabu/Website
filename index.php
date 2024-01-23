@@ -44,8 +44,8 @@
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="aboutMe.html">About Me</a>
+        <a href="index.php">Home</a>
+        <a href="aboutMe.php">About Me</a>
     </nav>
 
     <section>
