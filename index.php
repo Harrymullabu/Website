@@ -41,7 +41,6 @@
 <body>
     <header>
         <h1>Harrison Segero</h1>
-        <h1>Testing</h1>
     </header>
 
     <nav>
