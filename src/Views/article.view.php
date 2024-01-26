@@ -1,32 +1,4 @@
-<?php
-
-?>
-
-
-<!DOCTYPE
- html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
-    <link rel="stylesheet" href="mystyle.css">
-    
-</head>
-
-<body>
-
-    <header>
-        <h2>Harrison Segero</h2>
-
-            <nav>
-                <a href="index.php">Home</a>
-                <a href="aboutMe.php">About Me</a>
-            </nav>
-    </header>
-    
-    <main>
+<main>
         <section>
             <header>
                 <h2>About Me</h2>
@@ -47,14 +19,3 @@
             </article>
         </section>
     </main>
-    <h>GitHub Repository</h>
-</header>
-<p>Link to my GitHub repo: <a href="https://github.com/Harrymullabu/Website.git">GitHub Repo</a></p>
-
-    <footer>
-        <p>&copy; 2024 Harrison Segero</p>
-    </footer>
-
-</body>
-
-</html>

@@ -1,17 +1,10 @@
 <?php
-$name = "name";
-
-
-
-
-
-
+define('URL_ROOT', 'http://localhost:3000');
+define('APP_ROOT', dirname(__DIR__));
 
 
 
 ?>
-
-
 
 
 
