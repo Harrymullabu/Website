@@ -1,6 +1,19 @@
 <?php
 define('URL_ROOT', 'http://localhost:3000');
-define('APP_ROOT', dirname(__DIR__));
+define('ABS_ROOT', $_SERVER['DOCUMENT_ROOT']);
+
+include_once(ABS_ROOT . "/Website/src/Views/head.view.php");
+include_once(ABS_ROOT . "/Website/src/Views/header.view.php");
+   
+$name = "Put Name Here!";
+$data = array(
+    "question" => "<h2>Why am I taking this class?</h2>",
+    "answer" => "To help me in designing, creativity and becoming a full stuck developer."
+
+)
+
+
+
 
 
 
@@ -8,19 +21,9 @@ define('APP_ROOT', dirname(__DIR__));
 
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harrison Segero</title>
-    <link rel="stylesheet" href="mystyle.css">
-</head>
-<body>
-    <header>
-        <h1>Harrison Segero</h1>
-    </header>
 
+
+    
     <nav>
         <a href="index.php">Home</a>
         <a href="aboutMe.php">About Me</a>
@@ -28,8 +31,9 @@ define('APP_ROOT', dirname(__DIR__));
 
     <section>
         <article>
-            <h2>Why am I taking this class?</h2>
-            <p>To help me in designing, creativity and becoming a full stuck developer.</p>
+            <h2></h2>
+            <p><?php echo $data["question"]  ?></p>
+            <p><?php echo $data["answer"]  ?></p>
 
             <h2>What do I want to take away from this class?</h2>
             <p>To be able to create a functional website. To learn more stuffs that i did not know .</p>
