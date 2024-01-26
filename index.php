@@ -1,3 +1,20 @@
+<?php
+$name = "name";
+
+
+
+
+
+
+
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,38 +22,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harrison Segero</title>
     <link rel="stylesheet" href="mystyle.css">
-    <style>
-    
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: lightblue;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: lightblue;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        section {
-            padding: 20px;
-        }
-    </style>
 </head>
 <body>
     <header>
