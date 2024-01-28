@@ -4,6 +4,7 @@ define('ABS_ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 include_once(ABS_ROOT . "/Website/src/Views/head.view.php");
 include_once(ABS_ROOT . "/Website/src/Views/header.view.php");
+include_once(ABS_ROOT . "/Website/src/Views/navigation.view.php");
    
 $name = "Put Name Here!";
 $data = array(
@@ -11,6 +12,8 @@ $data = array(
     "answer" => "To help me in designing, creativity and becoming a full stuck developer."
 
 )
+
+
 
 
 
@@ -35,6 +38,8 @@ $data = array(
             <p><?php echo $data["question"]  ?></p>
             <p><?php echo $data["answer"]  ?></p>
 
+
+            
             <h2>What do I want to take away from this class?</h2>
             <p>To be able to create a functional website. To learn more stuffs that i did not know .</p>
         </article>
