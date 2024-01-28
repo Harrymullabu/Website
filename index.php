@@ -1,10 +1,12 @@
 <?php
-define('URL_ROOT', 'http://localhost:3000');
-define('ABS_ROOT', $_SERVER['DOCUMENT_ROOT']);
+$config = parse_ini_file('config.ini', true);
+$environment = $config['ENVIROMENT'];
+define('URL_ROOT',$config[$environment]['URL_ROOT']);
+define('ABS_ROOT' ,$config[$environment]['ABS_ROOT']);
 
-include_once(ABS_ROOT . "/Website/src/Views/head.view.php");
-include_once(ABS_ROOT . "/Website/src/Views/header.view.php");
-include_once(ABS_ROOT . "/Website/src/Views/navigation.view.php");
+include_once(ABS_ROOT . "/src/Views/head.view.php");
+include_once(ABS_ROOT . "/src/Views/header.view.php");
+include_once(ABS_ROOT . "/src/Views/navigation.view.php");
    
 $name = "Put Name Here!";
 $data = array(
@@ -29,7 +31,7 @@ $data = array(
     
     <nav>
         <a href="index.php">Home</a>
-        <a href="aboutMe.php">About Me</a>
+        <a href="About.view.php">About Me</a>
     </nav>
 
     <section>
