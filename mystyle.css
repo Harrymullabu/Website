@@ -33,3 +33,7 @@ section {
     height: auto;
     border-radius: 10px;
 }
+ul, li {
+    text-decoration: none;
+    list-style: none;
+}
