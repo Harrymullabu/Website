@@ -6,7 +6,7 @@ define('URL_ROOT', 'http://localhost:3000');
 define('ABS_ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 include_once(ABS_ROOT . "/Website/src/Views/head.view.php");
-include_once(ABS_ROOT . "/Website/src/Views/header.view.php");
+
 
 $aboutMeText = "<p></p>
 <p>Hi, I'm Harrison Segero, a passionate computer science enthusiast. One fun fact about me is I love Heinz Ketchap.</p>
