@@ -1,7 +1,8 @@
 <?php
-
-define('URL_ROOT', 'http://localhost:3000');
-define('ABS_ROOT', $_SERVER['DOCUMENT_ROOT']);
+$config = parse_ini_file('config.ini', true);
+$environment = $config['ENVIROMENT'];
+define('URL_ROOT',$config[$environment]['URL_ROOT']);
+define('ABS_ROOT' ,$config[$environment]['ABS_ROOT']);
 
 include_once(ABS_ROOT . "/Website/src/Views/head.view.php");
 include_once(ABS_ROOT . "/Website/src/Views/header.view.php");

@@ -4,12 +4,6 @@ $environment = $config['ENVIROMENT'];
 define('URL_ROOT',$config[$environment]['URL_ROOT']);
 define('ABS_ROOT' ,$config[$environment]['ABS_ROOT']);
 
-include_once(ABS_ROOT . "/src/Views/head.view.php");
-include_once(ABS_ROOT . "/src/Views/header.view.php");
-include_once(ABS_ROOT . "/src/Views/navigation.view.php");
-include_once(ABS_ROOT . "/src/Views/header.view.php");
-include_once(ABS_ROOT . "/src/Views/footer.view.php");
-
 
 $name = "Harrison Segero";
 $data = array(
@@ -18,6 +12,14 @@ $data = array(
     "question1" => "<h2>What do I want to take away from this class?</h2>",
     "answer1" => "To be able to create a functional website. To learn more stuffs that i did not know ..",
 );
+
+include_once(ABS_ROOT . "/src/Views/head.view.php");
+include_once(ABS_ROOT . "/src/Views/header.view.php");
+include_once(ABS_ROOT . "/src/Views/navigation.view.php");
+
+
+
+
 ?>
 
 
@@ -40,8 +42,7 @@ $data = array(
     </section>
 
     
-    <footer>
-        <p>Find the source code on <a href="https://github.com/Harrymullabu/Website.git" target="_blank">GitHub</a></p>
-    </footer>
+    <?php include_once(ABS_ROOT . "/src/Views/footer.view.php");?>
+
 </body>
 </html>
